@@ -1,1340 +1,157 @@
-.homepage-queenie {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.homepage-queenie .div {
-  background-color: #ffffff;
-  overflow: hidden;
-  width: 1512px;
-  height: 5844px;
-  position: relative;
-}
-
-.homepage-queenie .overlap {
-  position: absolute;
-  width: 1575px;
-  height: 1199px;
-  top: 4645px;
-  left: 0;
-}
-
-.homepage-queenie .final-CTA {
-  position: absolute;
-  width: 1575px;
-  height: 948px;
-  top: 0;
-  left: 0;
-}
-
-.homepage-queenie .overlap-group {
-  position: relative;
-  height: 948px;
-}
-
-.homepage-queenie .background {
-  position: absolute;
-  width: 1512px;
-  height: 556px;
-  top: 0;
-  left: 0;
-  background-color: #19589b;
-}
-
-.homepage-queenie .ellipse {
-  position: absolute;
-  width: 731px;
-  height: 739px;
-  top: 209px;
-  left: 844px;
-  background-color: #ffffff;
-  border-radius: 365.5px/369.5px;
-}
-
-.homepage-queenie .image {
-  width: 527px;
-  height: 527px;
-  top: 9px;
-  left: 844px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.homepage-queenie .left-text {
-  position: absolute;
-  width: 498px;
-  height: 397px;
-  top: 79px;
-  left: 128px;
-}
-
-.homepage-queenie .sign-up-button {
-  position: absolute;
-  width: 294px;
-  height: 62px;
-  top: 335px;
-  left: 28px;
-  background-color: #ed9118;
-  border-radius: 10px;
-}
-
-.homepage-queenie .text {
-  position: absolute;
-  top: 16px;
-  left: 28px;
-  -webkit-text-stroke: 3px #ffffff;
-  color: #000000;
-  font-size: 24px;
-  text-align: center;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .unlock-the-full {
-  position: absolute;
-  width: 466px;
-  top: 107px;
-  left: 28px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .text-wrapper {
-  position: absolute;
-  width: 380px;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .footer {
-  position: absolute;
-  width: 1516px;
-  height: 656px;
-  top: 543px;
-  left: 0;
-  background-color: transparent;
-}
-
-.homepage-queenie .overlap-2 {
-  position: relative;
-  width: 1512px;
-  height: 656px;
-  background-color: #353535;
-}
-
-.homepage-queenie .overlap-3 {
-  position: absolute;
-  width: 1512px;
-  height: 302px;
-  top: 354px;
-  left: 0;
-  background-color: #232323;
-}
-
-.homepage-queenie .mobile-app-icons {
-  position: absolute;
-  width: 513px;
-  height: 71px;
-  top: 109px;
-  left: 500px;
-}
-
-.homepage-queenie .appstore {
-  position: absolute;
-  width: 240px;
-  height: 71px;
-  top: 0;
-  left: 0;
-  object-fit: cover;
-}
-
-.homepage-queenie .googleplay {
-  position: absolute;
-  width: 240px;
-  height: 71px;
-  top: 0;
-  left: 273px;
-  object-fit: cover;
-}
-
-.homepage-queenie .social-media-icons {
-  position: absolute;
-  width: 127px;
-  height: 58px;
-  top: 214px;
-  left: 1334px;
-}
-
-.homepage-queenie .twitter {
-  position: absolute;
-  width: 52px;
-  height: 52px;
-  top: 3px;
-  left: 0;
-  object-fit: cover;
-}
-
-.homepage-queenie .facebook {
-  position: absolute;
-  width: 58px;
-  height: 58px;
-  top: 0;
-  left: 69px;
-  object-fit: cover;
-}
-
-.homepage-queenie .copyright-text {
-  position: absolute;
-  top: 224px;
-  left: 532px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .footer-text {
-  position: absolute;
-  top: 36px;
-  left: 222px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .contacts {
-  position: absolute;
-  width: 377px;
-  height: 247px;
-  top: 51px;
-  left: 1080px;
-}
-
-.homepage-queenie .overlap-group-2 {
-  position: absolute;
-  width: 371px;
-  height: 206px;
-  top: 41px;
-  left: 0;
-  background-color: #1e1e1e;
-  border-radius: 10px;
-}
-
-.homepage-queenie .chat-icon {
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  top: 113px;
-  left: 54px;
-  object-fit: cover;
-}
-
-.homepage-queenie .phone-icon {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  top: 58px;
-  left: 56px;
-  object-fit: cover;
-}
-
-.homepage-queenie .text-wrapper-2 {
-  position: absolute;
-  top: 61px;
-  left: 99px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .text-wrapper-3 {
-  position: absolute;
-  top: 119px;
-  left: 101px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .text-wrapper-4 {
-  position: absolute;
-  top: 0;
-  left: 122px;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .map {
-  position: absolute;
-  width: 414px;
-  height: 247px;
-  top: 51px;
-  left: 545px;
-}
-
-.homepage-queenie .img {
-  position: absolute;
-  width: 412px;
-  height: 206px;
-  top: 41px;
-  left: 0;
-  object-fit: cover;
-}
-
-.homepage-queenie .p {
-  position: absolute;
-  top: 0;
-  left: 57px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .usa-today {
-  position: absolute;
-  width: 362px;
-  height: 247px;
-  top: 51px;
-  left: 62px;
-}
-
-.homepage-queenie .usa-today-2 {
-  position: absolute;
-  width: 360px;
-  height: 206px;
-  top: 41px;
-  left: 0;
-  object-fit: cover;
-}
-
-.homepage-queenie .text-wrapper-5 {
-  position: absolute;
-  top: 0;
-  left: 3px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .contact {
-  position: absolute;
-  width: 1280px;
-  height: 757px;
-  top: 3731px;
-  left: 128px;
-}
-
-.homepage-queenie .contact-us {
-  position: absolute;
-  width: 555px;
-  height: 642px;
-  top: 115px;
-  left: 723px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 8px 16px #00000040;
-}
-
-.homepage-queenie .name {
-  position: absolute;
-  width: 481px;
-  height: 58px;
-  top: 145px;
-  left: 41px;
-}
-
-.homepage-queenie .input {
-  position: relative;
-  width: 479px;
-  height: 58px;
-  background-color: #e6e6e6;
-  border-radius: 10px;
-  border: none;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #9d9d9d;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  padding: 0;
-  padding-left: 32px;
-}
-
-.homepage-queenie .email {
-  position: absolute;
-  width: 481px;
-  height: 58px;
-  top: 223px;
-  left: 41px;
-}
-
-.homepage-queenie .send-message {
-  position: absolute;
-  width: 262px;
-  height: 61px;
-  top: 516px;
-  left: 41px;
-}
-
-.homepage-queenie .div-wrapper {
-  position: relative;
-  height: 61px;
-  background-color: #ed9118;
-  border-radius: 10px;
-}
-
-.homepage-queenie .text-2 {
-  position: absolute;
-  top: 15px;
-  left: 36px;
-  -webkit-text-stroke: 3px #ffffff;
-  color: #000000;
-  font-size: 24px;
-  text-align: center;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .message-box {
-  position: absolute;
-  width: 481px;
-  height: 195px;
-  top: 301px;
-  left: 41px;
-}
-
-.homepage-queenie .overlap-4 {
-  position: relative;
-  width: 479px;
-  height: 195px;
-  background-color: #e6e6e6;
-  border-radius: 10px;
-}
-
-.homepage-queenie .text-wrapper-6 {
-  position: absolute;
-  top: 14px;
-  left: 32px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #9d9d9d;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .question {
-  position: absolute;
-  width: 479px;
-  height: 58px;
-  top: 67px;
-  left: 41px;
-  background-color: #e6e6e6;
-  border-radius: 10px;
-}
-
-.homepage-queenie .question-dropdown {
-  position: relative;
-  width: 427px;
-  height: 29px;
-  top: 11px;
-  left: 32px;
-}
-
-.homepage-queenie .text-wrapper-7 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #9d9d9d;
-  font-size: 24px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .vector {
-  position: absolute;
-  width: 16px;
-  height: 21px;
-  top: 2518px;
-  left: 3493px;
-}
-
-.homepage-queenie .heading {
-  position: absolute;
-  width: 678px;
-  top: 0;
-  left: 289px;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #1e1e1e;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .image-2 {
-  width: 622px;
-  height: 622px;
-  top: 125px;
-  left: 0;
-  position: absolute;
-  object-fit: cover;
-}
-
-.homepage-queenie .testimonials {
-  position: absolute;
-  width: 1312px;
-  height: 1008px;
-  top: 2587px;
-  left: 101px;
-}
-
-.homepage-queenie .testimonial {
-  position: absolute;
-  width: 636px;
-  height: 495px;
-  top: 104px;
-  left: 680px;
-}
+/*
 
-.homepage-queenie .overlap-group-3 {
-  position: relative;
-  width: 630px;
-  height: 495px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 8px 16px #00000040;
-}
-
-.homepage-queenie .text-wrapper-8 {
-  position: absolute;
-  width: 550px;
-  top: 44px;
-  left: 40px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .text-wrapper-9 {
-  top: 393px;
-  position: absolute;
-  width: 137px;
-  left: 453px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .text-wrapper-10 {
-  position: absolute;
-  width: 339px;
-  top: 426px;
-  left: 251px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  font-style: italic;
-  color: #353535;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .image-3 {
-  width: 60px;
-  height: 23px;
-  top: 361px;
-  left: 530px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.homepage-queenie .overlap-wrapper {
-  height: 356px;
-  top: 652px;
-  left: 0;
-  position: absolute;
-  width: 636px;
-}
-
-.homepage-queenie .overlap-5 {
-  position: relative;
-  width: 630px;
-  height: 356px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0px 8px 16px #00000040;
-}
-
-.homepage-queenie .text-wrapper-11 {
-  position: absolute;
-  width: 137px;
-  top: 251px;
-  left: 453px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .text-wrapper-12 {
-  position: absolute;
-  width: 339px;
-  top: 285px;
-  left: 251px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  font-style: italic;
-  color: #353535;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .image-4 {
-  width: 60px;
-  height: 60px;
-  top: 183px;
-  left: 530px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.homepage-queenie .overlap-group-wrapper {
-  height: 356px;
-  top: 652px;
-  left: 680px;
-  position: absolute;
-  width: 636px;
-}
-
-.homepage-queenie .image-5 {
-  width: 60px;
-  height: 54px;
-  top: 187px;
-  left: 529px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.homepage-queenie .testimonial-2 {
-  height: 495px;
-  top: 104px;
-  left: 0;
-  position: absolute;
-  width: 636px;
-}
-
-.homepage-queenie .overlap-group-4 {
-  position: absolute;
-  width: 550px;
-  height: 340px;
-  top: 44px;
-  left: 40px;
-}
-
-.homepage-queenie .simply-put-imleagues {
-  position: absolute;
-  width: 550px;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .image-6 {
-  width: 62px;
-  height: 55px;
-  top: 284px;
-  left: 488px;
-  position: absolute;
-  object-fit: cover;
-}
-
-.homepage-queenie .text-wrapper-13 {
-  top: 392px;
-  position: absolute;
-  width: 137px;
-  left: 453px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .heading-2 {
-  width: 561px;
-  left: 375px;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #1e1e1e;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-  position: absolute;
-  top: 0;
-}
-
-.homepage-queenie .program-features {
-  position: absolute;
-  width: 1134px;
-  height: 850px;
-  top: 1613px;
-  left: 188px;
-}
-
-.homepage-queenie .sign-up-button-2 {
-  position: absolute;
-  width: 441px;
-  height: 67px;
-  top: 783px;
-  left: 347px;
-  background-color: #ed9118;
-  border-radius: 10px;
-}
-
-.homepage-queenie .text-3 {
-  position: absolute;
-  top: 17px;
-  left: 33px;
-  -webkit-text-stroke: 3px #ffffff;
-  color: #000000;
-  font-size: 24px;
-  text-align: center;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .features {
-  position: absolute;
-  width: 1134px;
-  height: 624px;
-  top: 105px;
-  left: 0;
-}
-
-.homepage-queenie .feature {
-  position: absolute;
-  width: 557px;
-  height: 696px;
-  top: -16px;
-  left: 613px;
-}
-
-.homepage-queenie .feature-2 {
-  position: absolute;
-  width: 557px;
-  height: 696px;
-  top: -16px;
-  left: -36px;
-}
-
-.homepage-queenie .heading-3 {
-  width: 563px;
-  height: 51px;
-  left: 288px;
-  position: absolute;
-  top: 0;
-}
-
-.homepage-queenie .text-wrapper-14 {
-  position: absolute;
-  width: 561px;
-  top: 0;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #1e1e1e;
-  font-size: 48px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-  white-space: nowrap;
-}
-
-.homepage-queenie .overlap-6 {
-  position: absolute;
-  width: 1512px;
-  height: 1340px;
-  top: 147px;
-  left: 0;
-}
-
-.homepage-queenie .statistics {
-  position: absolute;
-  width: 1512px;
-  height: 449px;
-  top: 891px;
-  left: 0;
-  background-color: #19589b;
-}
+--- 01 TYPOGRAPHY SYSTEM
 
-.homepage-queenie .icon {
-  position: absolute;
-  width: 324px;
-  height: 315px;
-  top: 60px;
-  left: 1025px;
-}
-
-.homepage-queenie .flexcontainer {
-  width: 322px;
-  height: 126px;
-  top: 189px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-  position: absolute;
-  left: 0;
-}
-
-.homepage-queenie .span-wrapper {
-  position: relative;
-  align-self: stretch;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 40px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .span {
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.homepage-queenie .text-wrapper-15 {
-  font-weight: 700;
-  color: #ed9118;
-}
-
-.homepage-queenie .text-wrapper-16 {
-  font-weight: 500;
-  color: #ffffff;
-  font-size: 24px;
-}
-
-.homepage-queenie .icon-referee-wrapper {
-  position: absolute;
-  width: 164px;
-  height: 164px;
-  top: 0;
-  left: 79px;
-  background-color: #ffffff;
-  border-radius: 82px;
-}
-
-.homepage-queenie .icon-referee {
-  position: absolute;
-  width: 121px;
-  height: 123px;
-  top: 24px;
-  left: 30px;
-  object-fit: cover;
-}
-
-.homepage-queenie .icon-2 {
-  position: absolute;
-  width: 383px;
-  height: 374px;
-  top: 60px;
-  left: 565px;
-}
-
-.homepage-queenie .flexcontainer-2 {
-  width: 381px;
-  height: 179px;
-  top: 195px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-  position: absolute;
-  left: 0;
-}
-
-.homepage-queenie .icon-trophy-wrapper {
-  position: absolute;
-  height: 164px;
-  top: 0;
-  left: 108px;
-  border-radius: 82px;
-  width: 164px;
-  background-color: #ffffff;
-}
-
-.homepage-queenie .icon-trophy {
-  position: absolute;
-  width: 111px;
-  height: 113px;
-  top: 28px;
-  left: 27px;
-  object-fit: cover;
-}
-
-.homepage-queenie .icon-3 {
-  position: absolute;
-  width: 297px;
-  height: 315px;
-  top: 60px;
-  left: 174px;
-}
-
-.homepage-queenie .flexcontainer-3 {
-  width: 295px;
-  height: 126px;
-  top: 189px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2px;
-  position: absolute;
-  left: 0;
-}
-
-.homepage-queenie .icon-hat-wrapper {
-  position: absolute;
-  width: 164px;
-  height: 164px;
-  top: 0;
-  left: 62px;
-  background-color: #ffffff;
-  border-radius: 82px;
-}
-
-.homepage-queenie .icon-hat {
-  position: absolute;
-  width: 116px;
-  height: 117px;
-  top: 24px;
-  left: 24px;
-  object-fit: cover;
-}
-
-.homepage-queenie .hero {
-  position: absolute;
-  width: 1376px;
-  height: 928px;
-  top: 0;
-  left: 127px;
-}
-
-.homepage-queenie .overlap-7 {
-  position: relative;
-  height: 928px;
-}
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-.homepage-queenie .left-text-2 {
-  position: absolute;
-  width: 689px;
-  height: 346px;
-  top: 90px;
-  left: 0;
-}
-
-.homepage-queenie .sign-up-button-3 {
-  position: absolute;
-  width: 282px;
-  height: 66px;
-  top: 280px;
-  left: 0;
-  background-color: #ed9118;
-  border-radius: 10px;
-}
-
-.homepage-queenie .text-4 {
-  position: absolute;
-  top: 17px;
-  left: 24px;
-  -webkit-text-stroke: 3px #ffffff;
-  color: #000000;
-  font-size: 24px;
-  text-align: center;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.homepage-queenie .overlap-group-5 {
-  position: absolute;
-  width: 685px;
-  height: 236px;
-  top: 0;
-  left: 0;
-}
+- Font weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
 
-.homepage-queenie .description {
-  position: absolute;
-  width: 575px;
-  top: 149px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #353535;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
+- Line heights:
+Default: 1 
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6  
+Large: 1.8
 
-.homepage-queenie .heading-4 {
-  width: 685px;
-  left: 0;
-  font-family: "Inter", Helvetica;
-  font-weight: 700;
-  color: #1e1e1e;
-  font-size: 48px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
+- Letter spacing
+-0.5 px
+0.75px
 
-.homepage-queenie .hero-image {
-  position: absolute;
-  width: 928px;
-  height: 928px;
-  top: 0;
-  left: 448px;
-  object-fit: cover;
-}
+--- 02 COLORS
 
-.homepage-queenie .nav-bar {
-  position: absolute;
-  width: 1512px;
-  height: 108px;
-  top: 0;
-  left: 0;
-}
+- Primary: #ED9118
+- Tints: 
 
-.homepage-queenie .overlap-8 {
-  position: relative;
-  width: 1522px;
-  height: 118px;
-  top: -5px;
-  left: -5px;
-  background-color: #ffffff;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-  border-color: #19589b;
-}
+- Shades: 
+#D58316
+- Accents:
+#163B72
+#19589B
+- Greys:
+#9D9D9D
+#363636
+#232323
 
-.homepage-queenie .logo {
-  position: absolute;
-  width: 249px;
-  height: 75px;
-  top: 20px;
-  left: 20px;
-}
 
-.homepage-queenie .logo-2 {
-  position: absolute;
-  width: 257px;
-  height: 83px;
-  top: 0;
-  left: -4px;
-  object-fit: cover;
-}
+--- 05 SHADOWS
 
-.homepage-queenie .nav-tabs {
-  position: absolute;
-  width: 783px;
-  height: 88px;
-  top: 20px;
-  left: 368px;
-}
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
 
-.homepage-queenie .mobile-apps-button {
-  position: absolute;
-  width: 165px;
-  height: 88px;
-  top: 0;
-  left: 618px;
-}
+--- 06 BORDER-RADIUS
 
-.homepage-queenie .nav-bar-text-wrapper {
-  position: relative;
-  width: 175px;
-  height: 98px;
-  top: -5px;
-  left: -5px;
-  background-color: #ffffff;
-}
+Default: 9px
+Medium: 11px
 
-.homepage-queenie .nav-bar-text {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  position: relative;
-  top: 38px;
-  left: 17px;
-}
+--- 07 WHITESPACE
 
-.homepage-queenie .text-5 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  color: #9d9d9d;
-  font-size: 24px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-}
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
 
-.homepage-queenie .integrations-button {
-  position: absolute;
-  width: 154px;
-  height: 88px;
-  top: 0;
-  left: 439px;
-}
+*/
 
-.homepage-queenie .integrations-wrapper {
-  position: relative;
-  height: 98px;
-  top: -5px;
-  left: -5px;
-  width: 164px;
-  background-color: #ffffff;
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-.homepage-queenie .text-wrapper-17 {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  position: relative;
-  top: 38px;
-  left: 15px;
-}
+html {
+   font-size: 62.5%;
+   overflow-x: hidden;
 
-.homepage-queenie .testimonials-button {
-  position: absolute;
-  width: 164px;
-  height: 88px;
-  top: 0;
-  left: 252px;
+   /* Does NOT work on Safari */
+   /* scroll-behavior: smooth; */
 }
 
-.homepage-queenie .testimonials-wrapper {
-  position: relative;
-  width: 174px;
-  height: 98px;
-  top: -5px;
-  left: -5px;
-  background-color: #ffffff;
+body {
+   font-family: "Inter", sans-serif;
+   line-height: 1;
+   font-weight: 400;
+   overflow-x: hidden;
+   color: #232323;
 }
 
-.homepage-queenie .schools-button {
-  position: absolute;
-  width: 110px;
-  height: 88px;
-  top: 0;
-  left: 118px;
+.home-page-container {
+   /* width: 120rem; */
 }
+/******************************************/
+/* NAVIGATION */
+/******************************************/
 
-.homepage-queenie .schools-wrapper {
-  position: relative;
-  width: 120px;
-  height: 98px;
-  top: -5px;
-  left: -5px;
-  background-color: #ffffff;
+.nav {
+   height: 4.8rem;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2.8rem 1.6rem;
+   border-bottom: 0.4rem solid #163b72;
 }
 
-.homepage-queenie .schools {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  position: relative;
-  top: 38px;
-  left: 14px;
+.nav-logo {
+   height: 4.8rem;
 }
 
-.homepage-queenie .home-button {
-  all: unset;
-  box-sizing: border-box;
-  position: absolute;
-  width: 100px;
-  height: 88px;
-  top: 0;
-  left: 0;
+.nav-links {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   font-size: 1.6rem;
+   gap: 2.4rem;
 }
 
-.homepage-queenie .home-wrapper {
-  position: relative;
-  width: 110px;
-  height: 98px;
-  top: -5px;
-  left: -5px;
-  background-color: #ffffff;
-  border-bottom-width: 5px;
-  border-bottom-style: solid;
-  border-color: #ed9118;
+.nav-link {
+   text-decoration: none;
+   color: #9d9d9d;
+   font-weight: 500;
+   padding: 1.8rem 1.2rem;
+   transition: all 0.4s;
 }
 
-.homepage-queenie .home {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  position: relative;
-  top: 34px;
-  left: 15px;
+.nav-link:hover {
+   color: #232323;
 }
 
-.homepage-queenie .text-6 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  color: #000000;
-  font-size: 24px;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
+.nav-link--selected {
+   border-bottom: 0.4rem solid #ed9118;
+   color: #232323;
 }
 
-.homepage-queenie .login-signup-buttons {
-  position: absolute;
-  width: 250px;
-  height: 50px;
-  top: 39px;
-  left: 1232px;
+.nav-btns {
+   display: flex;
+   gap: 1.6rem;
 }
 
-.homepage-queenie .button {
-  all: unset;
-  box-sizing: border-box;
-  position: absolute;
-  width: 118px;
-  height: 50px;
-  top: 0;
-  left: 132px;
-  background-color: #ed9118;
-  border-radius: 10px;
+.btn {
+   outline: none;
+   border: 0.3rem solid #ed9118;
+   color: #fff;
+   background-color: #ed9118;
+   border-radius: 0.8rem;
+   padding: 0.8rem 1.8rem;
+   transition: all 0.4s;
 }
 
-.homepage-queenie .text-7 {
-  position: absolute;
-  top: 12px;
-  left: 17px;
-  -webkit-text-stroke: 3px #ffffff;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  white-space: nowrap;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
+.btn:hover,
+.btn-nav--login:hover {
+   background-color: #d58316;
+   border-color: #d58316;
+   color: #fff;
 }
 
-.homepage-queenie .login-button {
-  all: unset;
-  box-sizing: border-box;
-  position: absolute;
-  width: 118px;
-  height: 50px;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border: 3px solid;
-  border-color: #ed9118;
+.btn-nav--login {
+   background-color: #fff;
+   color: #ed9118;
 }
 
-.homepage-queenie .text-8 {
-  position: absolute;
-  top: 9px;
-  left: 24px;
-  -webkit-text-stroke: 3px #ed9118;
-  color: #000000;
-  font-size: 20px;
-  text-align: center;
-  white-space: nowrap;
-  font-family: "Inter", Helvetica;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
+/******************************************/
+/* HERO */
+/******************************************/
+.section-hero {
+   width: 120rem;
 }
