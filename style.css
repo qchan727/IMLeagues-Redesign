@@ -78,6 +78,7 @@ body {
 
 .home-page-container {
    /* width: 120rem; */
+   position: relative;
 }
 /******************************************/
 /* NAVIGATION */
@@ -135,6 +136,7 @@ body {
    border-radius: 0.8rem;
    padding: 0.8rem 1.8rem;
    transition: all 0.4s;
+   cursor: pointer;
 }
 
 .btn:hover,
@@ -152,6 +154,44 @@ body {
 /******************************************/
 /* HERO */
 /******************************************/
+
 .section-hero {
+   position: relative;
+   display: flex;
+   height: 100vh;
    width: 120rem;
+   padding: 5.8rem 12.6rem;
+   margin-top: 4.8rem;
+}
+
+.hero-left {
+   width: 60%;
+}
+
+.heading-primary {
+   font-size: 4.8rem;
+}
+
+.hero-desc {
+   font-size: 1.8rem;
+   margin-top: 2.4rem;
+   width: 80%;
+}
+
+.btn-hero {
+   font-size: 1.8rem;
+   margin-top: 2.4rem;
+}
+
+.hero-right {
+   position: absolute;
+   right: -20%;
+   top: -5%;
+   width: 68%;
+   overflow: visible; /* Ensures no clipping if the image is larger than its container */
+}
+
+.img-hero {
+   width: 100%; /* Make sure the image fills the container */
+   height: auto; /* Maintain aspect ratio */
 }
