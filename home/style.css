@@ -270,28 +270,58 @@ body {
 
 .card-features {
    display: flex;
-   /* align-items: center; */
-   gap: 4.8rem;
+   gap: 14rem;
 }
 
 .card {
-   border-radius: 1.2rem;
+   border-radius: 0.8rem;
    padding: 3.6rem;
    box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.173);
 }
 
 .card-feature {
+   padding: 0;
+   overflow: hidden;
 }
 
 .img-feature-bg {
    background-color: #ed9118;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 2.4rem 3.6rem 0 3.6rem;
 }
 
 .img-feature {
-   width: 9.6rem;
+   width: 16rem;
    height: auto;
+   transform: translateY(1.4rem);
 }
 
+.feature-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 2.4rem 5.4rem 8.4rem 5.4rem;
+   font-size: 1.8rem;
+   gap: 2.4rem;
+}
+
+.feature-text--heading {
+   font-size: 2.4rem;
+   font-weight: 600;
+}
+
+.feature-text--list {
+   display: flex;
+   flex-direction: column;
+   gap: 1.6rem;
+}
+
+.btn-feature {
+   font-size: 1.8rem;
+}
 /******************************************/
 /* TESTIMONIALS */
 /******************************************/
@@ -540,9 +570,9 @@ body {
 
 .footer-copyright {
    display: flex;
-   width: 100%; /* Ensure it spans the full width */
+   width: 100%;
    align-items: center;
-   justify-content: space-between; /* This pushes children to opposite ends */
+   justify-content: space-between;
    font-size: 1.4rem;
    padding: 0 3.2rem;
 }
