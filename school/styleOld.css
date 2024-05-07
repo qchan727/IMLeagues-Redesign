@@ -1,0 +1,1355 @@
+.schools-page-hannah {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.schools-page-hannah .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1512px;
+  height: 1772px;
+  position: relative;
+}
+
+.schools-page-hannah .footer {
+  position: absolute;
+  width: 1516px;
+  height: 656px;
+  top: 1116px;
+  left: 0;
+  background-color: transparent;
+}
+
+.schools-page-hannah .overlap {
+  position: relative;
+  width: 1512px;
+  height: 656px;
+  background-color: #353535;
+}
+
+.schools-page-hannah .overlap-group {
+  position: absolute;
+  width: 1512px;
+  height: 302px;
+  top: 354px;
+  left: 0;
+  background-color: #232323;
+}
+
+.schools-page-hannah .mobile-app-icons {
+  position: absolute;
+  width: 513px;
+  height: 71px;
+  top: 110px;
+  left: 483px;
+}
+
+.schools-page-hannah .appstore {
+  position: absolute;
+  width: 240px;
+  height: 71px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.schools-page-hannah .googleplay {
+  position: absolute;
+  width: 240px;
+  height: 71px;
+  top: 0;
+  left: 273px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .social-media-icons {
+  position: absolute;
+  width: 127px;
+  height: 58px;
+  top: 214px;
+  left: 1334px;
+}
+
+.schools-page-hannah .twitter {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 3px;
+  left: 0;
+  object-fit: cover;
+}
+
+.schools-page-hannah .facebook {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  top: 0;
+  left: 69px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .copyright-text {
+  position: absolute;
+  width: 431px;
+  top: 224px;
+  left: 532px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .footer-text {
+  position: absolute;
+  width: 1071px;
+  top: 36px;
+  left: 222px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .contacts {
+  position: absolute;
+  width: 377px;
+  height: 247px;
+  top: 51px;
+  left: 1080px;
+}
+
+.schools-page-hannah .overlap-group-2 {
+  position: absolute;
+  width: 371px;
+  height: 206px;
+  top: 41px;
+  left: 0;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+.schools-page-hannah .chat-icon {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 113px;
+  left: 54px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .phone-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 58px;
+  left: 56px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper {
+  position: absolute;
+  width: 135px;
+  top: 61px;
+  left: 99px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-2 {
+  position: absolute;
+  width: 216px;
+  top: 119px;
+  left: 101px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-3 {
+  position: absolute;
+  width: 119px;
+  top: 0;
+  left: 122px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .map {
+  position: absolute;
+  width: 414px;
+  height: 247px;
+  top: 51px;
+  left: 545px;
+}
+
+.schools-page-hannah .img {
+  position: absolute;
+  width: 412px;
+  height: 206px;
+  top: 41px;
+  left: 0;
+  object-fit: cover;
+}
+
+.schools-page-hannah .p {
+  position: absolute;
+  width: 299px;
+  top: 0;
+  left: 57px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .usa-today {
+  position: absolute;
+  width: 362px;
+  height: 247px;
+  top: 51px;
+  left: 62px;
+}
+
+.schools-page-hannah .usa-today-2 {
+  position: absolute;
+  width: 360px;
+  height: 206px;
+  top: 41px;
+  left: 0;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper-4 {
+  position: absolute;
+  width: 354px;
+  top: 0;
+  left: 3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .overlap-2 {
+  position: absolute;
+  width: 1411px;
+  height: 911px;
+  top: 161px;
+  left: 50px;
+}
+
+.schools-page-hannah .scrollable-section {
+  display: inline-flex;
+  flex-direction: column;
+  height: 691px;
+  align-items: center;
+  gap: 25px;
+  padding: 25px 41px;
+  position: absolute;
+  top: 220px;
+  left: 231px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 5px solid;
+  border-color: #163b72;
+  overflow-y: scroll;
+}
+
+.schools-page-hannah .schools-a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.schools-page-hannah .overlap-group-wrapper {
+  position: relative;
+  width: 836px;
+  height: 40.65px;
+}
+
+.schools-page-hannah .overlap-group-3 {
+  position: relative;
+  width: 834px;
+  height: 41px;
+}
+
+.schools-page-hannah .text-wrapper-5 {
+  position: absolute;
+  width: 20px;
+  top: 0;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .line {
+  position: absolute;
+  width: 834px;
+  height: 2px;
+  top: 39px;
+  left: 0;
+  object-fit: cover;
+}
+
+.schools-page-hannah .school-row {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 53px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.schools-page-hannah .school {
+  position: relative;
+  width: 177px;
+  height: 178.54px;
+}
+
+.schools-page-hannah .overlap-group-4 {
+  position: relative;
+  width: 175px;
+  height: 179px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 5px solid;
+  border-color: #000000;
+}
+
+.schools-page-hannah .school-logo {
+  position: absolute;
+  width: 133px;
+  height: 90px;
+  top: 13px;
+  left: 16px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper-6 {
+  position: absolute;
+  width: 140px;
+  top: 121px;
+  left: 13px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-7 {
+  position: absolute;
+  width: 156px;
+  top: 121px;
+  left: 4px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-2 {
+  position: absolute;
+  width: 112px;
+  height: 108px;
+  top: 4px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .overlap-3 {
+  position: relative;
+  width: 175px;
+  height: 179px;
+  border-radius: 20px;
+  border: 5px solid;
+  border-color: #000000;
+}
+
+.schools-page-hannah .school-logo-3 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 13px;
+  left: 38px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper-8 {
+  position: absolute;
+  width: 116px;
+  top: 121px;
+  left: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .overlap-wrapper {
+  position: relative;
+  width: 177px;
+  height: 178.54px;
+  margin-right: -2px;
+}
+
+.schools-page-hannah .school-logo-4 {
+  position: absolute;
+  width: 105px;
+  height: 90px;
+  top: 13px;
+  left: 30px;
+}
+
+.schools-page-hannah .text-wrapper-9 {
+  position: absolute;
+  width: 126px;
+  top: 121px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-5 {
+  position: absolute;
+  width: 81px;
+  height: 90px;
+  top: 14px;
+  left: 42px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .school-logo-6 {
+  position: absolute;
+  width: 112px;
+  height: 90px;
+  top: 14px;
+  left: 26px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .agnes-scott-college {
+  width: 88px;
+  left: 38px;
+  position: absolute;
+  top: 121px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-7 {
+  position: absolute;
+  width: 137px;
+  height: 90px;
+  top: 14px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .aims-community {
+  position: absolute;
+  width: 122px;
+  top: 121px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-10 {
+  position: absolute;
+  width: 156px;
+  top: 108px;
+  left: 4px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-8 {
+  position: absolute;
+  width: 112px;
+  height: 90px;
+  top: 14px;
+  left: 26px;
+}
+
+.schools-page-hannah .school-logo-9 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 13px;
+  left: 38px;
+}
+
+.schools-page-hannah .albany-state {
+  position: absolute;
+  width: 96px;
+  top: 121px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .albertus-magnus {
+  position: absolute;
+  width: 123px;
+  top: 121px;
+  left: 22px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-10 {
+  position: absolute;
+  width: 81px;
+  height: 90px;
+  top: 14px;
+  left: 42px;
+}
+
+.schools-page-hannah .school-logo-11 {
+  position: absolute;
+  width: 105px;
+  height: 90px;
+  top: 14px;
+  left: 30px;
+}
+
+.schools-page-hannah .alcorn-state {
+  position: absolute;
+  width: 89px;
+  top: 121px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-12 {
+  position: absolute;
+  width: 137px;
+  height: 90px;
+  top: 14px;
+  left: 14px;
+}
+
+.schools-page-hannah .alderson-broaddus {
+  position: absolute;
+  width: 137px;
+  top: 121px;
+  left: 14px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-13 {
+  position: absolute;
+  width: 141px;
+  height: 90px;
+  top: 14px;
+  left: 12px;
+}
+
+.schools-page-hannah .school-logo-14 {
+  position: absolute;
+  width: 150px;
+  height: 90px;
+  top: 14px;
+  left: 8px;
+}
+
+.schools-page-hannah .text-wrapper-11 {
+  width: 120px;
+  left: 22px;
+  position: absolute;
+  top: 121px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-12 {
+  position: absolute;
+  width: 131px;
+  top: 121px;
+  left: 18px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-15 {
+  position: absolute;
+  width: 105px;
+  height: 90px;
+  top: 14px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper-13 {
+  position: absolute;
+  width: 99px;
+  top: 121px;
+  left: 34px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-14 {
+  width: 95px;
+  left: 36px;
+  position: absolute;
+  top: 121px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-16 {
+  position: absolute;
+  width: 148px;
+  height: 90px;
+  top: 14px;
+  left: 8px;
+}
+
+.schools-page-hannah .school-logo-17 {
+  position: absolute;
+  width: 139px;
+  height: 90px;
+  top: 14px;
+  left: 14px;
+}
+
+.schools-page-hannah .american {
+  position: absolute;
+  width: 149px;
+  top: 121px;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-15 {
+  position: absolute;
+  width: 145px;
+  top: 121px;
+  left: 10px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-18 {
+  position: absolute;
+  width: 111px;
+  height: 90px;
+  top: 14px;
+  left: 28px;
+}
+
+.schools-page-hannah .school-logo-19 {
+  position: absolute;
+  width: 127px;
+  height: 90px;
+  top: 14px;
+  left: 18px;
+}
+
+.schools-page-hannah .text-wrapper-16 {
+  width: 103px;
+  left: 32px;
+  position: absolute;
+  top: 121px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .angelo-state {
+  width: 97px;
+  left: 34px;
+  position: absolute;
+  top: 121px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-17 {
+  position: absolute;
+  width: 79px;
+  top: 121px;
+  left: 44px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-18 {
+  position: absolute;
+  width: 117px;
+  top: 121px;
+  left: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-19 {
+  position: absolute;
+  width: 127px;
+  top: 121px;
+  left: 20px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-logo-20 {
+  position: absolute;
+  width: 140px;
+  height: 66px;
+  top: 26px;
+  left: 12px;
+}
+
+.schools-page-hannah .text-wrapper-20 {
+  position: absolute;
+  width: 150px;
+  top: 121px;
+  left: 8px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .text-wrapper-21 {
+  position: absolute;
+  width: 140px;
+  top: 121px;
+  left: 12px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .school-row-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 53px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.schools-page-hannah .div-wrapper {
+  position: relative;
+  width: 177px;
+  height: 178.54px;
+  opacity: 0;
+}
+
+.schools-page-hannah .school-2 {
+  opacity: 0;
+  position: relative;
+  width: 177px;
+  height: 178.54px;
+  margin-right: -2px;
+}
+
+.schools-page-hannah .schools-b {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 0px 20px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.schools-page-hannah .school-logo-21 {
+  position: absolute;
+  width: 93px;
+  height: 90px;
+  top: 14px;
+  left: 36px;
+}
+
+.schools-page-hannah .school-logo-22 {
+  position: absolute;
+  width: 133px;
+  height: 90px;
+  top: 13px;
+  left: 16px;
+}
+
+.schools-page-hannah .school-logo-23 {
+  position: absolute;
+  width: 93px;
+  height: 90px;
+  top: 13px;
+  left: 36px;
+}
+
+.schools-page-hannah .school-logo-24 {
+  position: absolute;
+  width: 99px;
+  height: 90px;
+  top: 13px;
+  left: 34px;
+}
+
+.schools-page-hannah .school-logo-25 {
+  position: absolute;
+  width: 105px;
+  height: 90px;
+  top: 13px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .school-logo-26 {
+  position: absolute;
+  width: 93px;
+  height: 90px;
+  top: 13px;
+  left: 36px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .alphabet-filter {
+  display: flex;
+  width: 942px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 0px;
+  position: absolute;
+  top: 151px;
+  left: 235px;
+  border-radius: 20px;
+}
+
+.schools-page-hannah .letter-a {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #19589b;
+}
+
+.schools-page-hannah .text-wrapper-22 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.schools-page-hannah .div-wrapper-2 {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #19589b;
+}
+
+.schools-page-hannah .search-bar {
+  display: flex;
+  width: 942px;
+  height: 34px;
+  align-items: center;
+  gap: 10px;
+  padding: 50px 10px;
+  position: absolute;
+  top: 98px;
+  left: 235px;
+  background-color: #d9d9d9bf;
+  border-radius: 50px;
+}
+
+.schools-page-hannah .image {
+  height: 20.95px;
+  margin-top: -43.48px;
+  margin-bottom: -43.48px;
+  position: relative;
+  width: 20px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper-23 {
+  position: relative;
+  flex: 1;
+  margin-top: -45px;
+  margin-bottom: -39px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .image-2 {
+  height: 20.69px;
+  margin-top: -43.34px;
+  margin-bottom: -43.34px;
+  position: relative;
+  width: 20px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .text-wrapper-24 {
+  position: absolute;
+  top: 0;
+  left: 411px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .ads {
+  position: absolute;
+  width: 1411px;
+  height: 851px;
+  top: 15px;
+  left: 0;
+}
+
+.schools-page-hannah .ad {
+  position: absolute;
+  width: 185px;
+  height: 851px;
+  top: 0;
+  left: 0;
+}
+
+.schools-page-hannah .ad-2 {
+  position: absolute;
+  width: 185px;
+  height: 851px;
+  top: 0;
+  left: 1226px;
+}
+
+.schools-page-hannah .nav-bar {
+  position: absolute;
+  width: 1512px;
+  height: 108px;
+  top: 0;
+  left: 0;
+}
+
+.schools-page-hannah .overlap-4 {
+  position: relative;
+  width: 1522px;
+  height: 118px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffffff;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-color: #19589b;
+}
+
+.schools-page-hannah .logo {
+  position: absolute;
+  width: 249px;
+  height: 75px;
+  top: 20px;
+  left: 20px;
+}
+
+.schools-page-hannah .logo-2 {
+  position: absolute;
+  width: 257px;
+  height: 83px;
+  top: 0;
+  left: -4px;
+  object-fit: cover;
+}
+
+.schools-page-hannah .nav-tabs {
+  position: absolute;
+  width: 783px;
+  height: 88px;
+  top: 20px;
+  left: 368px;
+}
+
+.schools-page-hannah .mobile-apps-button {
+  position: absolute;
+  width: 165px;
+  height: 88px;
+  top: 0;
+  left: 618px;
+}
+
+.schools-page-hannah .nav-bar-text-wrapper {
+  position: relative;
+  width: 175px;
+  height: 98px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffffff;
+}
+
+.schools-page-hannah .nav-bar-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 38px;
+  left: 17px;
+}
+
+.schools-page-hannah .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #9d9d9d;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .integrations-button {
+  position: absolute;
+  width: 154px;
+  height: 88px;
+  top: 0;
+  left: 439px;
+}
+
+.schools-page-hannah .integrations-wrapper {
+  position: relative;
+  width: 164px;
+  height: 98px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffffff;
+}
+
+.schools-page-hannah .text-wrapper-25 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 38px;
+  left: 15px;
+}
+
+.schools-page-hannah .testimonials-button {
+  position: absolute;
+  width: 164px;
+  height: 88px;
+  top: 0;
+  left: 252px;
+}
+
+.schools-page-hannah .testimonials-wrapper {
+  position: relative;
+  width: 174px;
+  height: 98px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffffff;
+}
+
+.schools-page-hannah .schools-button {
+  position: absolute;
+  width: 110px;
+  height: 88px;
+  top: 0;
+  left: 118px;
+}
+
+.schools-page-hannah .schools-wrapper {
+  position: relative;
+  width: 120px;
+  height: 98px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffffff;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-color: #ed9118;
+}
+
+.schools-page-hannah .schools {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 33px;
+  left: 9px;
+}
+
+.schools-page-hannah .text-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  color: #000000;
+  font-size: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .home-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 100px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.schools-page-hannah .home-wrapper {
+  position: relative;
+  width: 110px;
+  height: 98px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffffff;
+}
+
+.schools-page-hannah .home {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  top: 39px;
+  left: 20px;
+}
+
+.schools-page-hannah .login-signup-buttons {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  top: 39px;
+  left: 1233px;
+}
+
+.schools-page-hannah .sign-up-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 119px;
+  height: 50px;
+  top: 0;
+  left: 131px;
+  background-color: #ed9118;
+  border-radius: 10px;
+}
+
+.schools-page-hannah .text-3 {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  -webkit-text-stroke: 3px #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.schools-page-hannah .login-button {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  width: 119px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: #ed9118;
+}
+
+.schools-page-hannah .text-4 {
+  position: absolute;
+  top: 9px;
+  left: 24px;
+  -webkit-text-stroke: 3px #ed9118;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
