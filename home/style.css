@@ -186,7 +186,7 @@ body {
 .hero-right {
    position: absolute;
    right: -20%;
-   top: -5%;
+   top: -12%;
    width: 68%;
    overflow: visible; /* Ensures no clipping if the image is larger than its container */
 }
