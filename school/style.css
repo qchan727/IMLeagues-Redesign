@@ -955,246 +955,131 @@ body {
 /******************************************/
 
 .footer {
-   position: relative;
-   width: 1516px;
-   height: 656px;
-   background-color: transparent;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+   /* background-color: #363636; */
+   color: #fff;
 }
 
-.overlap {
-   position: relative;
-   width: 1512px;
-   height: 656px;
-   background-color: #353535;
+.footer-top {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: 1.4rem;
+   background-color: #363636;
+   width: 100%;
+   padding: 3.6rem;
 }
 
-.overlap-group {
-   position: absolute;
-   width: 1512px;
-   height: 302px;
-   top: 354px;
-   left: 0;
+.footer-top-item {
+   display: flex;
+   flex-direction: column;
+   gap: 1.4rem;
+   align-items: center;
+   justify-content: center;
+}
+
+.img-footer-top {
+   height: 15rem;
+}
+
+.footer-top-contacts {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   gap: 2.4rem;
    background-color: #232323;
+   height: 15rem;
+   padding: 3.2rem 4.2rem;
+   border-radius: 0.6rem;
 }
 
-.mobile-app-icons {
-   position: absolute;
-   width: 513px;
-   height: 71px;
-   top: 110px;
-   left: 483px;
+.footer-top-contact {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1.2rem;
 }
 
-.appstore {
-   position: absolute;
-   width: 240px;
-   height: 71px;
-   top: 0;
-   left: 0;
-   object-fit: cover;
+.img-footer-contact {
+   width: 2.4rem;
+   height: 2.4rem;
 }
 
-.googleplay {
-   position: absolute;
-   width: 240px;
-   height: 71px;
-   top: 0;
-   left: 273px;
-   object-fit: cover;
+.footer-bottom {
+   background-color: #232323;
+   width: 100%;
+   padding: 3.2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 3.2rem;
 }
 
-.social-media-icons {
-   position: absolute;
-   width: 127px;
-   height: 58px;
-   top: 214px;
-   left: 1334px;
+.footer-links {
+   list-style: none;
+   display: flex;
+   align-items: center;
+   font-size: 1.6rem;
+   gap: 2.4rem;
 }
 
-.twitter {
-   position: absolute;
-   width: 52px;
-   height: 52px;
-   top: 3px;
-   left: 0;
-   object-fit: cover;
+.footer-link {
+   text-decoration: none;
+   color: #fff;
+   padding: 1.8rem 1.2rem;
+   transition: all 0.4s;
 }
 
-.facebook {
-   position: absolute;
-   width: 58px;
-   height: 58px;
-   top: 0;
-   left: 69px;
-   object-fit: cover;
+.footer-apps {
+   display: flex;
+   gap: 2.4rem;
 }
 
-.copyright-text {
-   position: absolute;
-   width: 431px;
-   top: 224px;
-   left: 532px;
-   font-family: "Inter", Helvetica;
-   font-weight: 400;
-   color: #ffffff;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
+.img-footer-app {
+   height: 4.8rem;
 }
 
-.footer-text {
-   position: absolute;
-   width: 1071px;
-   top: 36px;
-   left: 222px;
-   font-family: "Inter", Helvetica;
-   font-weight: 400;
-   color: #ffffff;
-   font-size: 24px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
+.footer-copyright {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 1.4rem;
+   padding: 0 3.2rem;
 }
 
-.contacts {
-   position: absolute;
-   width: 377px;
-   height: 247px;
-   top: 51px;
-   left: 1080px;
+.spacer {
+   width: 7.4rem;
 }
 
-.overlap-group-2 {
-   position: absolute;
-   width: 371px;
-   height: 206px;
-   top: 41px;
-   left: 0;
-   background-color: #1e1e1e;
-   border-radius: 10px;
+.footer-copyright-text {
+   align-self: center;
+   justify-self: center;
 }
 
-.chat-icon {
-   position: absolute;
-   width: 35px;
-   height: 35px;
-   top: 113px;
-   left: 54px;
-   object-fit: cover;
+.footer-socials {
+   align-self: end;
+   justify-self: end;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.6rem;
 }
 
-.phone-icon {
-   position: absolute;
-   width: 30px;
-   height: 30px;
-   top: 58px;
-   left: 56px;
-   object-fit: cover;
+.img-footer-social {
+   width: 3.2rem;
+   height: 3.2rem;
 }
 
-.text-wrapper {
-   position: absolute;
-   width: 135px;
-   top: 61px;
-   left: 99px;
-   font-family: "Inter", Helvetica;
-   font-weight: 500;
-   color: #ffffff;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
-}
-
-.text-wrapper-2 {
-   position: absolute;
-   width: 216px;
-   top: 119px;
-   left: 101px;
-   font-family: "Inter", Helvetica;
-   font-weight: 500;
-   color: #ffffff;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
-}
-
-.text-wrapper-3 {
-   position: absolute;
-   width: 119px;
-   top: 0;
-   left: 122px;
-   font-family: "Inter", Helvetica;
-   font-weight: 700;
-   color: #ffffff;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
-}
-
-.map {
-   position: absolute;
-   width: 414px;
-   height: 247px;
-   top: 51px;
-   left: 545px;
-}
-
-.img {
-   position: absolute;
-   width: 412px;
-   height: 206px;
-   top: 41px;
-   left: 0;
-   object-fit: cover;
-}
-
-.p {
-   position: absolute;
-   width: 299px;
-   top: 0;
-   left: 57px;
-   font-family: "Inter", Helvetica;
-   font-weight: 500;
-   color: #ffffff;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
-}
-
-.usa-today {
-   position: absolute;
-   width: 362px;
-   height: 247px;
-   top: 51px;
-   left: 62px;
-}
-
-.usa-today-2 {
-   position: absolute;
-   width: 360px;
-   height: 206px;
-   top: 41px;
-   left: 0;
-   object-fit: cover;
-}
-
-.text-wrapper-4 {
-   position: absolute;
-   width: 354px;
-   top: 0;
-   left: 3px;
-   font-family: "Inter", Helvetica;
-   font-weight: 500;
-   color: #ffffff;
-   font-size: 20px;
-   text-align: center;
-   letter-spacing: 0;
-   line-height: normal;
+.img-footer-social--facebook {
+   width: 3.6rem;
+   height: 3.6rem;
 }
 
 /******************************************/
