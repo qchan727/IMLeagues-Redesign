@@ -1,856 +1,515 @@
-.integrations-page {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .integrations-page .div {
-    background-color: #ffffff;
-    overflow: hidden;
-    width: 1512px;
-    height: 2685px;
-    position: relative;
-  }
-  
-  .integrations-page .footer {
-    position: absolute;
-    width: 1516px;
-    height: 656px;
-    top: 2029px;
-    left: 0;
-    background-color: transparent;
-  }
-  
-  .integrations-page .overlap {
-    position: relative;
-    width: 1512px;
-    height: 656px;
-    background-color: #353535;
-    justify-content: center;
-  }
-  
-  .integrations-page .overlap-group {
-    position: absolute;
-    width: 1512px;
-    height: 302px;
-    top: 354px;
-    left: 0;
-    background-color: #232323;
-  }
-  
-  .integrations-page .mobile-app-icons {
-    position: absolute;
-    width: 513px;
-    height: 71px;
-    top: 115px;
-    left: 484px;
-  }
-  
-  .integrations-page .appstore {
-    position: absolute;
-    width: 240px;
-    height: 71px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .integrations-page .googleplay {
-    position: absolute;
-    width: 240px;
-    height: 71px;
-    top: 0;
-    left: 273px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .social-media-icons {
-    position: absolute;
-    width: 127px;
-    height: 58px;
-    top: 214px;
-    left: 1334px;
-  }
-  
-  .integrations-page .twitter {
-    position: absolute;
-    width: 52px;
-    height: 52px;
-    top: 3px;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .integrations-page .facebook {
-    position: absolute;
-    width: 58px;
-    height: 58px;
-    top: 0;
-    left: 69px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .copyright-text {
-    position: absolute;
-    top: 224px;
-    left: 532px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .footer-text {
-    position: absolute;
-    top: 36px;
-    left: 222px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 24px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .contacts {
-    position: absolute;
-    width: 377px;
-    height: 247px;
-    top: 51px;
-    left: 1080px;
-  }
-  
-  .integrations-page .overlap-group-2 {
-    position: absolute;
-    width: 371px;
-    height: 206px;
-    top: 41px;
-    left: 0;
-    background-color: #1e1e1e;
-    border-radius: 10px;
-  }
-  
-  .integrations-page .chat-icon {
-    position: absolute;
-    width: 35px;
-    height: 35px;
-    top: 113px;
-    left: 54px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .phone-icon {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 58px;
-    left: 56px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .text-wrapper {
-    position: absolute;
-    top: 61px;
-    left: 99px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .text-wrapper-2 {
-    position: absolute;
-    top: 119px;
-    left: 101px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .text-wrapper-3 {
-    position: absolute;
-    top: 0;
-    left: 122px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .map {
-    position: absolute;
-    width: 414px;
-    height: 247px;
-    top: 51px;
-    left: 545px;
-  }
-  
-  .integrations-page .img {
-    position: absolute;
-    width: 412px;
-    height: 206px;
-    top: 41px;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .integrations-page .p {
-    position: absolute;
-    top: 0;
-    left: 57px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .usa-today {
-    position: absolute;
-    width: 362px;
-    height: 247px;
-    top: 51px;
-    left: 62px;
-  }
-  
-  .integrations-page .usa-today-2 {
-    position: absolute;
-    width: 360px;
-    height: 206px;
-    top: 41px;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .integrations-page .text-wrapper-4 {
-    position: absolute;
-    top: 0;
-    left: 3px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .contact-us {
-    position: absolute;
-    width: 647px;
-    height: 233px;
-    top: 1715px;
-    left: 443px;
-  }
-  
-  .integrations-page .overlap-2 {
-    position: relative;
-    width: 657px;
-    height: 243px;
-    top: -5px;
-    left: -5px;
-    background-color: #ffffff;
-    /*border-radius: 10px;
-    border: 5px solid;
-    border-color: #19589b;*/
-    border-width: 1rem;
-    border-style: solid;
-    border-color: #19589b;
-    border-radius: 4rem;
-  }
-  
-  .integrations-page .contact-us-button {
-    position: absolute;
-    width: 263px;
-    height: 73px;
-    top: 116px;
-    left: 12em;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0.5rem;
-    border: 1px solid #333333;
-    background-color: #ed9118;
-    border-radius: 1em;
-  }
+/*
 
-  .integrations-page .inside-button {
-    font-weight: bold;
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 0.5rem;
-    font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    align-content: center;
-    left: 3em;
-  }
+--- 01 TYPOGRAPHY SYSTEM
 
-  
-  .integrations-page .sign-up-button {
-    all: unset;
+- Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights:
+Default: 1 
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6  
+Large: 1.8
+
+- Letter spacing
+-0.5 px
+0.75px
+
+--- 02 COLORS
+
+- Primary: #ED9118
+- Tints: 
+
+- Shades: 
+#D58316
+- Accents:
+#163B72
+#19589B
+- Greys:
+#9D9D9D
+#363636
+#232323
+
+
+--- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    position: relative;
-    height: 73px;
+}
+ 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+ 
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #232323;
+}
+
+
+/**************/
+/* NAVIGATION */
+/**************/
+
+.nav {
+    height: 4.8rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem 1.6rem;
+    border-bottom: 0.4rem solid #163b72;
+ }
+ 
+.nav-logo {
+    height: 4.8rem;
+}
+ 
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 2.4rem;
+}
+ 
+.nav-link {
+    text-decoration: none;
+    color: #9d9d9d;
+    font-weight: 500;
+    padding: 1.8rem 1.2rem;
+    transition: all 0.4s;
+}
+ 
+.nav-link:hover {
+    color: #232323;
+}
+ 
+.nav-link--selected {
+    border-bottom: 0.4rem solid #ed9118;
+    color: #232323;
+}
+ 
+.nav-btns {
+    display: flex;
+    gap: 1.6rem;
+}
+ 
+.btn {
+    outline: none;
+    border: 0.3rem solid #ed9118;
+    color: #fff;
     background-color: #ed9118;
-    border-radius: 10px;
-  }
-  
-  .integrations-page .text {
-    position: absolute;
-    top: 18px;
-    left: 26px;
-    -webkit-text-stroke: 3px #ffffff;
-    color: #000000;
-    font-size: 32px;
-    text-align: center;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .issues_question {
-    position: absolute;
-    top: 1.5em;
-    left: 3em;
-    font-size: 2em;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .integrations-page .payment {
-    position: absolute;
-    width: 1324px;
-    height: 570px;
-    top: 1063px;
-    left: 96px;
-    border-width: 1rem;
-    border-style: solid;
-    border-color: #19589b;
-    border-radius: 4rem;
-  }
-  
-  .integrations-page .overlap-3 {
+    border-radius: 0.8rem;
+    padding: 0.8rem 1.8rem;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+ 
+.btn:hover,
+.btn-nav--login:hover {
+    background-color: #d58316;
+    border-color: #d58316;
+    color: #fff;
+}
+ 
+.btn-nav--login {
+    background-color: #fff;
+    color: #ed9118;
+}
+
+/**********/
+/* TITLE */
+/*********/
+
+.title {
     position: relative;
-    width: 1328px;
-    height: 578px;
-    left: -4px;
-    background-image: url(./img/image.png);
-    background-size: 100% 100%;
-  }
-  
-  .integrations-page .examples-payment {
-    position: absolute;
-    width: 519px;
-    height: 169px;
-    top: 208px;
-    left: 721px;
-  }
-  
-  .integrations-page .authorize-net {
-    position: absolute;
-    width: 258px;
-    height: 78px;
-    top: 91px;
-    left: 261px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .touch-net {
-    position: absolute;
-    width: 227px;
-    height: 74px;
-    top: 90px;
-    left: 5px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .paypal {
-    position: absolute;
-    width: 234px;
-    height: 71px;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .integrations-page .cash-net {
-    position: absolute;
-    width: 253px;
-    height: 76px;
-    top: 0;
-    left: 262px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .text-wrapper-5 {
-    position: absolute;
-    width: 609px;
-    top: 142px;
-    left: 55px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .payment-2 {
-    position: absolute;
-    width: 456px;
-    top: 50px;
-    left: 474px;
-    text-shadow: 0px 4px 4px #00000040;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 35px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .SSO {
-    position: absolute;
-    width: 1324px;
-    height: 570px;
-    top: 416px;
-    left: 96px;
-    border-width: 1rem;
-    border-style: solid;
-    border-color: #19589b;
-    border-radius: 4rem;
-  }
-  
-  .integrations-page .overlap-4 {
-    position: relative;
-    width: 1328px;
-    height: 578px;
-    left: -4px;
-    background-image: url(./img/rectangle-outline.png);
-    background-size: 100% 100%;
-  }
-  
-  .integrations-page .examples-sso {
-    position: absolute;
-    width: 462px;
-    height: 206px;
-    top: 192px;
-    left: 768px;
-  }
-  
-  .integrations-page .shibboleth {
-    position: absolute;
-    width: 225px;
-    height: 88px;
-    top: -5px;
-    left: -5px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .custom-coda {
-    position: absolute;
-    width: 223px;
-    height: 86px;
-    top: 128px;
-    left: 243px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .fusion {
-    position: absolute;
-    width: 225px;
-    height: 88px;
-    top: -5px;
-    left: 242px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .cas {
-    position: absolute;
-    width: 225px;
-    height: 85px;
-    top: 126px;
-    left: -5px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .enabling-single-sign {
-    position: absolute;
-    width: 618px;
-    top: 120px;
-    left: 57px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .single-sign-on-SSO {
-    position: absolute;
-    width: 456px;
-    top: 61px;
-    left: 468px;
-    text-shadow: 0px 4px 4px #00000040;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #000000;
-    font-size: 35px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .top-text {
-    position: absolute;
-    width: 1155px;
-    height: 94px;
-    top: 266px;
-    left: 175px;
-    border-top: solid;
-    border-bottom: solid;
-  }
-  
-  .integrations-page .line {
-    height: 8px;
-    top: 86px;
-    position: absolute;
-    width: 1036px;
-    left: 72px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .line-2 {
-    height: 4px;
-    top: -1px;
-    position: absolute;
-    width: 1036px;
-    left: 72px;
-    object-fit: cover;
-  }
-  
-  .integrations-page .text-wrapper-6 {
-    position: absolute;
-    width: 1153px;
-    top: 24px;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .title {
-    position: absolute;
-    width: 287px;
-    top: 163px;
-    left: 612px;
-    font-family: "Inter-Medium", Helvetica;
+    margin-top: 35px;
+    font-family: "Inter", Helvetica;
     font-weight: 500;
     color: #000000;
     font-size: 48px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .integrations-page .nav-bar {
-    position: absolute;
-    width: 1512px;
-    height: 108px;
-    top: 0;
-    left: 0;
-  }
-  
-  .integrations-page .overlap-5 {
+}
+
+
+/****************/
+/* MAIN CONTENT */
+/****************/
+
+.integrations-page {
+    /* width: 120rem; */
     position: relative;
-    width: 1522px;
-    height: 118px;
-    top: -5px;
-    left: -5px;
-    background-color: #ffffff;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content {
+    position: relative;
+    width: 1188px;
+    height: 705px;
+    margin-top: 5rem;
+    margin-bottom: 30rem;
+}
+
+/* Top text */
+
+.integrations-page .top-text {
+    position: absolute;
+    width: 125rem;
+    height: 94px;
+    border-top: solid;
+    border-bottom: solid;
+}
+
+.integrations-page .top-text-p {
+    position: absolute;
+    width: 1153px;
+    top: 24px;
+    left: 0;
+    font-weight: 400;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+/************/
+/* BOTH */
+/***********/
+
+.integrations-page .integration-boxes {
+    position: relative;
+    width: 125rem;
+    height: 570px;
+    top: 15rem;
+    margin-bottom: 5rem;
+    border-width: 1rem;
+    border-style: solid;
     border-color: #19589b;
-  }
+    border-radius: 4rem;
+}
+
+.integrations-page .section-title {
+    position: relative;
+    width: 456px;
+    top: 61px;
+    left: 40rem;
+    font-weight: 500;
+    color: #000000;
+    font-size: 35px;
+}
+
+.integrations-page .description {
+    position: relative;
+    width: 60rem;
+    top: 13rem;
+    left: 5rem;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
   
-  .integrations-page .logo {
+.integrations-page .examples {
     position: absolute;
-    width: 249px;
-    height: 75px;
-    top: 20px;
-    left: 20px;
-  }
+    width: 519px;
+    height: 169px;
+    top: 16rem;
+    left: 70rem;
+}
+
+/************/
+/* PAYMENT */
+/***********/
   
-  .integrations-page .logo-2 {
+.integrations-page .authorize-net {
     position: absolute;
-    width: 257px;
-    height: 83px;
-    top: 0;
-    left: -4px;
+    width: 258px;
+    height: 78px;
+    top: 91px;
+    left: 261px;
     object-fit: cover;
-  }
+}
   
-  .integrations-page .nav-tabs {
+.integrations-page .touch-net {
     position: absolute;
-    width: 783px;
-    height: 88px;
-    top: 20px;
-    left: 368px;
-  }
+    width: 227px;
+    height: 74px;
+    top: 90px;
+    left: 5px;
+    object-fit: cover;
+}
   
-  .integrations-page .mobile-apps-button {
+.integrations-page .paypal {
     position: absolute;
-    width: 165px;
-    height: 88px;
-    top: 0;
-    left: 618px;
-  }
-  
-  .integrations-page .nav-bar-text-wrapper {
-    position: relative;
-    width: 175px;
-    height: 98px;
-    top: -5px;
-    left: -5px;
-    background-color: #ffffff;
-  }
-  
-  .integrations-page .nav-bar-text {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    top: 38px;
-    left: 17px;
-  }
-  
-  .integrations-page .text-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #9d9d9d;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .integrations-button {
-    position: absolute;
-    width: 154px;
-    height: 88px;
-    top: 0;
-    left: 439px;
-  }
-  
-  .integrations-page .integrations-wrapper {
-    position: relative;
-    width: 164px;
-    height: 98px;
-    top: -5px;
-    left: -5px;
-    background-color: #ffffff;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    border-color: #ed9118;
-  }
-  
-  .integrations-page .integrations {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    top: 33px;
-    left: 10px;
-  }
-  
-  .integrations-page .text-3 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    color: #000000;
-    font-size: 24px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .testimonials-button {
-    position: absolute;
-    width: 164px;
-    height: 88px;
-    top: 0;
-    left: 252px;
-  }
-  
-  .integrations-page .testimonials-wrapper {
-    position: relative;
-    width: 174px;
-    height: 98px;
-    top: -5px;
-    left: -5px;
-    background-color: #ffffff;
-  }
-  
-  .integrations-page .testimonials {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    top: 38px;
-    left: 15px;
-  }
-  
-  .integrations-page .schools-button {
-    position: absolute;
-    width: 110px;
-    height: 88px;
-    top: 0;
-    left: 118px;
-  }
-  
-  .integrations-page .schools-wrapper {
-    position: relative;
-    width: 120px;
-    height: 98px;
-    top: -5px;
-    left: -5px;
-    background-color: #ffffff;
-  }
-  
-  .integrations-page .schools {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    position: relative;
-    top: 38px;
-    left: 14px;
-  }
-  
-  .integrations-page .home-button {
-    all: unset;
-    box-sizing: border-box;
-    position: absolute;
-    width: 100px;
-    height: 88px;
+    width: 234px;
+    height: 71px;
     top: 0;
     left: 0;
-  }
+    object-fit: cover;
+}
   
-  .integrations-page .home-wrapper {
-    position: relative;
-    width: 110px;
-    height: 98px;
+.integrations-page .cash-net {
+    position: absolute;
+    width: 253px;
+    height: 76px;
+    top: 0;
+    left: 262px;
+    object-fit: cover;
+}
+  
+
+/*******/
+/* SSO */
+/*******/ 
+
+.integrations-page .shibboleth {
+    position: absolute;
+    width: 225px;
+    height: 88px;
     top: -5px;
     left: -5px;
-    background-color: #ffffff;
-  }
+    object-fit: cover;
+}
   
-  .integrations-page .home {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
+.integrations-page .custom-coda {
+    position: absolute;
+    width: 223px;
+    height: 86px;
+    top: 128px;
+    left: 243px;
+    object-fit: cover;
+}
+  
+.integrations-page .fusion {
+    position: absolute;
+    width: 225px;
+    height: 88px;
+    top: -5px;
+    left: 242px;
+    object-fit: cover;
+}
+  
+.integrations-page .cas {
     position: relative;
-    top: 39px;
-    left: 20px;
-  }
-  
-  .integrations-page .login-signup-buttons {
+    width: 225px;
+    height: 85px;
+    top: 126px;
+    left: -5px;
+    object-fit: cover;
+}
+
+
+/* contact us stuff */
+
+.integrations-page .contact-us {
+    position: relative;
+    width: 647px;
+    height: 233px;
+    left: 25%;
+    top: 30rem;
+    
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #19589b;
+    border-radius: 3rem;
+}
+
+.integrations-page .issues_question {
+    position: relative;
+    top: 1.5em;
+    left: 3em;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.integrations-page .contact-us-button {
     position: absolute;
-    width: 250px;
-    height: 50px;
-    top: 39px;
-    left: 1233px;
-  }
-  
-  .integrations-page .div-wrapper {
-    all: unset;
-    box-sizing: border-box;
-    position: absolute;
-    width: 119px;
-    height: 50px;
-    top: 0;
-    left: 131px;
+    width: 263px;
+    height: 73px;
+    top: 116px;
+    left: 19em;
+    text-decoration: none;
+    display: flex;
+    border: 1px solid #333333;
     background-color: #ed9118;
-    border-radius: 10px;
-  }
-  
-  .integrations-page .text-4 {
-    position: absolute;
-    top: 12px;
-    left: 17px;
-    -webkit-text-stroke: 3px #ffffff;
-    color: #ffffff;
-    font-size: 20px;
-    text-align: center;
-    white-space: nowrap;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .integrations-page .login-button {
-    all: unset;
-    box-sizing: border-box;
-    position: absolute;
-    width: 119px;
-    height: 50px;
-    top: 0;
-    left: 0;
-    background-color: #ffffff;
-    border-radius: 10px;
-    border: 3px solid;
-    border-color: #ed9118;
-  }
-  
-  .integrations-page .text-5 {
-    position: absolute;
-    top: 9px;
-    left: 24px;
-    -webkit-text-stroke: 3px #ed9118;
-    color: #000000;
-    font-size: 20px;
-    text-align: center;
-    white-space: nowrap;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
+    border-radius: 1em;
+    align-items: center;
+}
+
+.integrations-page .inside-button {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 6rem;
+    font-size: 2em;
+}
+
+
+/**********/
+/* FOOTER */
+/**********/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    color: #fff;
+}
+ 
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    background-color: #363636;
+    width: 100%;
+    padding: 3.6rem;
+}
+ 
+.footer-top-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.img-footer-top {
+    height: 15rem;
+}
+ 
+.footer-top-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2.4rem;
+    background-color: #232323;
+    height: 15rem;
+    padding: 3.2rem 4.2rem;
+    border-radius: 0.6rem;
+}
+ 
+.footer-top-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+ 
+.img-footer-contact {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+ 
+.footer-bottom {
+    background-color: #232323;
+    width: 100%;
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+ 
+.footer-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 2.4rem;
+}
+ 
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 1.8rem 1.2rem;
+    transition: all 0.4s;
+}
+ 
+.footer-apps {
+    display: flex;
+    gap: 2.4rem;
+}
+ 
+.img-footer-app {
+    height: 4.8rem;
+}
+ 
+.footer-copyright {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 0 3.2rem;
+}
+ 
+.spacer {
+    width: 7.4rem;
+}
+ 
+.footer-copyright-text {
+    align-self: center;
+    justify-self: center;
+}
+ 
+.footer-socials {
+    align-self: end;
+    justify-self: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+ 
+.img-footer-social {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+ 
+.img-footer-social--facebook {
+    width: 3.6rem;
+    height: 3.6rem;
+}
+/* end footer */ 
+
