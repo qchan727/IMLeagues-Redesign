@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Quicksand:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
     <title>IMLeagues Integrations</title>
 </head>
+
 <body>
+    <nav class="nav">
+        <img class="nav-logo" src="img/logo.png" alt="imleagues icon" />
+        <ul class="nav-links">
+            <li>
+                <a class="nav-link" href="../home/index.html">Home</a>
+            </li>
+            <li>
+                <a class="nav-link" href="../school/schools.html">Schools</a>
+            </li>
+            <li>
+                <a class="nav-link" href="../testimonial/testimonial.html">Testimonials</a>
+            </li>
+            <li>
+                <a class="nav-link nav-link--selected" href="../integrations/integrations.html">Integrations</a>
+            </li>
+            <li>
+                <a class="nav-link" href="../mobile/mobile.html">Mobile Apps</a>
+            </li>
+        </ul>
+        <div class="nav-btns">
+            <button class="btn btn-nav btn-nav--login">
+                LOGIN
+            </button>
+            <button class="btn btn-nav">
+                SIGN UP
+            </button>
+        </div>
+    </nav>
     <div class="integrations-page">
-        <nav class="nav">
-            <img class="nav-logo" src="img/logo.png" alt="imleagues icon" />
-            <ul class="nav-links">
-                <li>
-                    <a class="nav-link" href="../home/index.html">Home</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="../school/schools.html">Schools</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="../testimonial/testimonial.html">Testimonials</a>
-                </li>
-                <li>
-                    <a class="nav-link nav-link--selected" href="../integrations/integrations.html">Integrations</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="../mobile/mobile.html">Mobile Apps</a>
-                </li>
-            </ul>
-            <div class="nav-btns">
-                <button class="btn btn-nav btn-nav--login">
-                    LOGIN
-                </button>
-                <button class="btn btn-nav">
-                    SIGN UP
-                </button>
-            </div>
-        </nav>
 
         <div class="title">Integrations</div>
 
@@ -43,57 +48,68 @@
             <div class="top-text">
                 <p class="top-text-p">IMLeagues is able to interact with various systems</p>
             </div>
-
             <div class="integration-boxes">
-                <div class="section-title">SINGLE SIGN ON (SSO)</div>
-                <div class="examples">
-                    <a href="https://www.shibboleth.net/" target="_blank" rel="noopener noreferrer"><img
-                            class="shibboleth" src="img/shibboleth.png" /></a>
-                    <img class="custom-coda" src="img/coda.png" />
-                    <a href="https://innosoft.com/" target="_blank" rel="noopener noreferrer"><img class="fusion"
-                            src="img/innoSoft.png" /></a>
-                    <a href="https://secure.its.yale.edu/cas/login?service=https%3A%2F%2Fybb.yale.edu%2F"
-                        target="_blank" rel="noopener noreferrer"><img class="cas" src="img/cas.png" /></a>
+                <div class="integration-box">
+                    <div class="integration-box-title">SINGLE SIGN ON (SSO)</div>
+                    <div class="integration-box-content">
+                        <p class="description">
+                            Enabling Single Sign On (SSO) allows participants to login directly through the campus
+                            portal that they are already familiar with, using their current username and password. First
+                            time
+                            users will
+                            have their IMLeagues account created on the fly using the information securely passed from
+                            your
+                            portal, no registration required
+                        </p>
+                        <div class="examples">
+                            <a href="https://www.shibboleth.net/" target="_blank" rel="noopener noreferrer"><img
+                                    class="shibboleth" src="img/shibboleth.png" /></a>
+                            <img class="custom-coda" src="img/coda.png" />
+                            <a href="https://innosoft.com/" target="_blank" rel="noopener noreferrer"><img
+                                    class="fusion" src="img/innoSoft.png" /></a>
+                            <a href="https://secure.its.yale.edu/cas/login?service=https%3A%2F%2Fybb.yale.edu%2F"
+                                target="_blank" rel="noopener noreferrer"><img class="cas" src="img/cas.png" /></a>
+                        </div>
+                    </div>
                 </div>
-                <p class="description">
-                    Enabling Single Sign On (SSO) allows participants to login directly through the campus
-                    portal that they are already familiar with, using their current username and password. First time users will
-                    have their IMLeagues account created on the fly using the information securely passed from your
-                    portal, no registration required
-                </p>
+
+                <div class="integration-box">
+                    <div class="integration-box-title">PAYMENT</div>
+                    <div class="integration-box-content">
+                        <p class="description">
+                            You can use our default PayPal integration simply by selecting Accept Online Payments in
+                            League
+                            Settings,
+                            or link payments to your payment processor of choice. All sensitive information is collected
+                            directly by
+                            the 3rd party processor, ensuring your transactions are safe and secure
+                        </p>
+                        <div class="examples">
+                            <a href="https://www.authorize.net/" target="_blank" rel="noopener noreferrer"><img
+                                    class="authorize-net" src="img/authorize.png" /></a>
+                            <a href="https://www.touchnet.com/" target="_blank" rel="noopener noreferrer"><img
+                                    class="touch-net" src="img/touch-net.png" /></a>
+                            <a href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer"><img
+                                    class="paypal" src="img/paypal.png" /></a>
+                            <a href="https://www.cashnetusa.com/" target="_blank" rel="noopener noreferrer"><img
+                                    class="cash-net" src="img/cashnet.png" /></a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="integration-boxes">
-                <div class="section-title">PAYMENT</div>
-                <div class="examples">
-                    <a href="https://www.authorize.net/" target="_blank" rel="noopener noreferrer"><img
-                            class="authorize-net" src="img/authorize.png" /></a>
-                    <a href="https://www.touchnet.com/" target="_blank" rel="noopener noreferrer"><img
-                            class="touch-net" src="img/touch-net.png" /></a>
-                    <a href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer"><img class="paypal"
-                            src="img/paypal.png" /></a>
-                    <a href="https://www.cashnetusa.com/" target="_blank" rel="noopener noreferrer"><img
-                            class="cash-net" src="img/cashnet.png" /></a>
-                </div>
-                <p class="description">
-                    You can use our default PayPal integration simply by selecting Accept Online Payments in League
-                    Settings,
-                    or link payments to your payment processor of choice. All sensitive information is collected
-                    directly by
-                    the 3rd party processor, ensuring your transactions are safe and secure
-                </p>
-            </div>
 
             <div class="contact-us">
-                <p class="issues_question">Any issues with integrations?</p>
-                <a href="https://vue.comm100.com/chatwindow.aspx?siteId=103740&planId=330a0000-0000-0000-0000-008e0001953c#"
-                    target="_blank" rel="noopener noreferrer" class="contact-us-button">
-                    <p class="inside-button">CONTACT US</p>
+                <p class="contact-text">Any issues with integrations?</p>
+
+                <a class="btn btn-contact"
+                    href="https://vue.comm100.com/chatwindow.aspx?siteId=103740&planId=330a0000-0000-0000-0000-008e0001953c#"
+                    target="_blank" rel="noopener noreferrer">CONTACT US
                 </a>
             </div>
         </div>
     </div>
-    
+
 
     <footer class="footer">
         <div class="footer-top">
@@ -167,4 +183,5 @@
     </footer>
 
 </body>
+
 </html>
